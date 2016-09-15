@@ -5,11 +5,14 @@
 #include "GraphicsDevice.h"
 class Text{
 public:
-
+    ~Text();
     ID3DXFont* getFont();
-    bool Init(GraphicsDevice * gDev, int height, int width, UINT weight, UINT mipLevel, bool italic, DWORD charset, DWORD OutputPrecision, DWORD Quality, DWORD PitchAndFamiliy, LPCSTR FaceName,LPD3DXFONT& font);
+    bool Init(GraphicsDevice * gDev, int height, bool italic, LPCSTR FaceName, int x, int y);
+    void Render(LPCSTR pString, DWORD format, D3DCOLOR Color);
+    void Render(LPCSTR pString, DWORD format, D3DCOLOR Color, int x, int y);
 private:
     ID3DXFont * font;
     RECT fRect;
+    int px, py;
     std::string message;
 };

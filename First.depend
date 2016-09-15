@@ -1,9 +1,11 @@
 # depslib dependency file v1.0
-1473924045 source:c:\users\alphazoner\desktop\first\resources\graphicsdevice.cpp
+1473977009 source:c:\users\alphazoner\desktop\first\resources\graphicsdevice.cpp
 	"../Headers/GraphicsDevice.h"
 	<d3d9.h>
+	"../Headers/Utils.h"
+	<iostream>
 
-1473921988 c:\users\alphazoner\desktop\first\headers\graphicsdevice.h
+1473976807 c:\users\alphazoner\desktop\first\headers\graphicsdevice.h
 	<d3d9.h>
 
 1473964749 source:c:\users\alphazoner\desktop\first\resources\sprite.cpp
@@ -24,7 +26,7 @@
 	<windows.h>
 	"Window.h"
 
-1473966325 c:\users\alphazoner\desktop\first\headers\window.h
+1473977611 c:\users\alphazoner\desktop\first\headers\window.h
 	"GraphicsDevice.h"
 	"Sprite.h"
 	<vector>
@@ -43,24 +45,43 @@
 1473932934 c:\users\alphazoner\desktop\first\headers\water.h
 	<d3d9.h>
 
-1473964008 source:c:\users\alphazoner\desktop\first\resources\window.cpp
+1473977790 source:c:\users\alphazoner\desktop\first\resources\window.cpp
 	"../Headers/Window.h"
 	"../Headers/GraphicsDevice.h"
 	<iostream>
 	<ctime>
+	"../Headers/Utils.h"
 
-1473965889 source:c:\users\alphazoner\desktop\first\source\main.cpp
+1473977975 source:c:\users\alphazoner\desktop\first\source\main.cpp
 	<windows.h>
 	<iostream>
 	"../Headers/Window.h"
 	"../Headers/Test.h"
+	"../Headers/Text.h"
+	<stdio.h>
+	"../Headers/Utils.h"
 
-1473967217 c:\users\alphazoner\desktop\first\headers\text.h
+1473971904 c:\users\alphazoner\desktop\first\headers\text.h
 	<d3d9.h>
 	<d3dx9.h>
 	<string>
 	"GraphicsDevice.h"
 
-1473966739 source:c:\users\alphazoner\desktop\first\resources\text.cpp
+1473972164 source:c:\users\alphazoner\desktop\first\resources\text.cpp
 	"../Headers/Text.h"
+	<string>
+
+1473973327 source:c:\users\alphazoner\desktop\first\resources\utils.cpp
+	"../Headers/Utils.h"
+	"../Headers/GraphicsDevice.h"
+
+1473972722 source:c:\users\alphazoner\desktop\first\resources\vertex2d.cpp
+
+1473977365 c:\users\alphazoner\desktop\first\headers\utils.h
+	"Vertex2D.h"
+	"GraphicsDevice.h"
+
+1473973003 c:\users\alphazoner\desktop\first\headers\vertex2d.h
+	<d3d9.h>
+	<d3dx9.h>
 

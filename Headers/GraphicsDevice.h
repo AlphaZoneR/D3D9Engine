@@ -8,6 +8,7 @@ public:
     ~GraphicsDevice();
 
     void Init(HWND hWND, bool winMode);
+    void Init3D(HWND hWnd, bool winMode);
     void Clear(D3DCOLOR color);
     void Begin();
     void End();
@@ -15,10 +16,12 @@ public:
     bool IsInit();
 
     LPDIRECT3DDEVICE9 device;
+    D3DPRESENT_PARAMETERS presentationParams;
 private:
     LPDIRECT3D9 direct3d;
     bool isinit;
-
+    D3DDISPLAYMODE  m_Mode;
+    D3DDEVTYPE	m_DevType;
 
 };
 
