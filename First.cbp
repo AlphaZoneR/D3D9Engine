@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="First" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/First" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="d3d9" />
+					<Add library="dxguid" />
+					<Add library="d3dx9" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/First" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="d3d9" />
+					<Add library="d3dx9" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Headers/GraphicsDevice.h" />
+		<Unit filename="Headers/Sprite.h" />
+		<Unit filename="Headers/Test.h" />
+		<Unit filename="Headers/Vector2.h" />
+		<Unit filename="Headers/Water.h" />
+		<Unit filename="Headers/Window.h" />
+		<Unit filename="Resources/GraphicsDevice.cpp" />
+		<Unit filename="Resources/Sprite.cpp" />
+		<Unit filename="Resources/Test.cpp" />
+		<Unit filename="Resources/Vector2.cpp" />
+		<Unit filename="Resources/Water.cpp" />
+		<Unit filename="Resources/Window.cpp" />
+		<Unit filename="Source/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,66 @@
+# depslib dependency file v1.0
+1473924045 source:c:\users\alphazoner\desktop\first\resources\graphicsdevice.cpp
+	"../Headers/GraphicsDevice.h"
+	<d3d9.h>
+
+1473921988 c:\users\alphazoner\desktop\first\headers\graphicsdevice.h
+	<d3d9.h>
+
+1473964749 source:c:\users\alphazoner\desktop\first\resources\sprite.cpp
+	"../Headers/Sprite.h"
+
+1473933523 c:\users\alphazoner\desktop\first\headers\sprite.h
+	<d3dx9.h>
+	<string>
+
+1473964548 source:c:\users\alphazoner\desktop\first\resources\test.cpp
+	<windows.h>
+	"../Headers/Test.h"
+	<iostream>
+	"../Headers/Window.h"
+
+1473965929 c:\users\alphazoner\desktop\first\headers\test.h
+	<d3d9.h>
+	<windows.h>
+	"Window.h"
+
+1473966325 c:\users\alphazoner\desktop\first\headers\window.h
+	"GraphicsDevice.h"
+	"Sprite.h"
+	<vector>
+	<ctime>
+	"Text.h"
+
+1473923892 source:c:\users\alphazoner\desktop\first\resources\vector2.cpp
+	"../Headers/Vector2.h"
+
+1473923821 c:\users\alphazoner\desktop\first\headers\vector2.h
+
+1473932921 source:c:\users\alphazoner\desktop\first\resources\water.cpp
+	"../Headers/Water.h"
+	<d3d9.h>
+
+1473932934 c:\users\alphazoner\desktop\first\headers\water.h
+	<d3d9.h>
+
+1473964008 source:c:\users\alphazoner\desktop\first\resources\window.cpp
+	"../Headers/Window.h"
+	"../Headers/GraphicsDevice.h"
+	<iostream>
+	<ctime>
+
+1473965889 source:c:\users\alphazoner\desktop\first\source\main.cpp
+	<windows.h>
+	<iostream>
+	"../Headers/Window.h"
+	"../Headers/Test.h"
+
+1473967217 c:\users\alphazoner\desktop\first\headers\text.h
+	<d3d9.h>
+	<d3dx9.h>
+	<string>
+	"GraphicsDevice.h"
+
+1473966739 source:c:\users\alphazoner\desktop\first\resources\text.cpp
+	"../Headers/Text.h"
+
